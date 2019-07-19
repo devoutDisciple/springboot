@@ -1,13 +1,38 @@
 package com.beiwosi.guangzhou;
 
+import com.beiwosi.guangzhou.modal.entity.GoodsEntity;
+import com.beiwosi.guangzhou.modal.repo.GoodsEntityRepository;
+import com.beiwosi.guangzhou.util.BaseResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 @RestController
 public class Hello {
-    @RequestMapping(value="/hello")
-    public String hello() {
+    @Autowired
+    GoodsEntityRepository goodsEntityRepository;
+
+    @RequestMapping(value = "/hello")
+    public BaseResponse hello() {
         System.out.println("hello");
-        return "hello world";
+        Map<String, String> map = new HashMap<>();
+        map.put("name", "zhangzhen");
+        map.put("age", "18");
+        List<GoodsEntity> list = goodsEntityRepository.findAll();
+//        System.out.println(goodsEntityRepository.findById(2));
+//        Optional goodsEntity = goodsEntityRepository.findById(2);
+        return BaseResponse.success(list);
+    }
+
+    @RequestMapping(value = "/login")
+    public BaseResponse login() {
+        System.out.println("login");
+        BaseResponse baseResponse = BaseResponse.error();
+        baseResponse.setData("登录失败");
+        return baseResponse;
     }
 }

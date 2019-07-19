@@ -3,6 +3,7 @@ package com.beiwosi.guangzhou.config;
 import com.beiwosi.guangzhou.interceptor.Interceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -14,6 +15,10 @@ public class WebAppInterceptorConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(interceptor).addPathPatterns("/**/*");
+
+//        registry.addInterceptor(interceptor).addPathPatterns("/**/*");
+        InterceptorRegistration interceptorRegistration = registry.addInterceptor(interceptor);
+        interceptorRegistration.addPathPatterns("/**/*");
+        interceptorRegistration.excludePathPatterns("/login");
     }
 }
