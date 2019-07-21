@@ -7,3 +7,6 @@ spring:
     password: admin
 hello:
   world: dev
+person:
+  name: zhangzhen
+  age: 18
