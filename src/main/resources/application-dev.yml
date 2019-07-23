@@ -7,6 +7,10 @@ spring:
     password: admin
 hello:
   world: dev
-person:
-  name: zhangzhen
-  age: 18
+logging:
+  file: my.log
+  pattern:
+    file: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %msg%n)"
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %msg%n"
+  level:
+    root: info
