@@ -1,0 +1,177 @@
+[32m2019-07-25 00:13:22.796 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[32m2019-07-25 00:13:22.841 INFO  Initializing Servlet 'dispatcherServlet'
+[0;39m[32m2019-07-25 00:13:22.917 INFO  Completed initialization in 76 ms
+[0;39m[32m2019-07-25 00:16:36.575 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[32m2019-07-25 00:16:36.591 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[32m2019-07-25 00:16:36.670 INFO  {dataSource-1} closed
+[0;39m[32m2019-07-25 00:16:53.369 INFO  Starting GuangzhouApplication on zhangzhendeAir.lan with PID 59162 (/Users/zhangzhen/springboot/target/classes started by zhangzhen in /Users/zhangzhen/springboot)
+[0;39m[32m2019-07-25 00:16:53.384 INFO  The following profiles are active: dev
+[0;39m[32m2019-07-25 00:16:56.568 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m[32m2019-07-25 00:16:56.873 INFO  Finished Spring Data repository scanning in 260ms. Found 1 repository interfaces.
+[0;39m[32m2019-07-25 00:16:57.978 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8daec26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[32m2019-07-25 00:16:58.954 INFO  Tomcat initialized with port(s): 8888 (http)
+[0;39m[32m2019-07-25 00:16:59.037 INFO  Starting service [Tomcat]
+[0;39m[32m2019-07-25 00:16:59.038 INFO  Starting Servlet engine: [Apache Tomcat/9.0.21]
+[0;39m[32m2019-07-25 00:16:59.601 INFO  Initializing Spring embedded WebApplicationContext
+[0;39m[32m2019-07-25 00:16:59.601 INFO  Root WebApplicationContext: initialization completed in 5947 ms
+[0;39m[32m2019-07-25 00:17:00.399 INFO  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[0;39m[32m2019-07-25 00:17:00.709 INFO  HHH000412: Hibernate Core {5.3.10.Final}
+[0;39m[32m2019-07-25 00:17:00.713 INFO  HHH000206: hibernate.properties not found
+[0;39m[32m2019-07-25 00:17:01.499 INFO  HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[0;39m[32m2019-07-25 00:17:02.980 INFO  {dataSource-1} inited
+[0;39m[32m2019-07-25 00:17:03.022 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[0;39m[32m2019-07-25 00:17:06.808 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[32m2019-07-25 00:17:08.777 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m2019-07-25 00:17:08.921 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[32m2019-07-25 00:17:09.077 INFO  Adding welcome page: class path resource [static/index.html]
+[0;39m[32m2019-07-25 00:17:09.739 INFO  Tomcat started on port(s): 8888 (http) with context path ''
+[0;39m[32m2019-07-25 00:17:09.751 INFO  Started GuangzhouApplication in 19.694 seconds (JVM running for 31.63)
+[0;39m[32m2019-07-25 00:17:11.548 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[32m2019-07-25 00:17:11.548 INFO  Initializing Servlet 'dispatcherServlet'
+[0;39m[32m2019-07-25 00:17:11.565 INFO  Completed initialization in 17 ms
+[0;39m2019-07-25 00:22:02.017 INFO  Starting GuangzhouApplicationTests on zhangzhendeAir.lan with PID 59231 (started by zhangzhen in /Users/zhangzhen/springboot)
+2019-07-25 00:22:02.020 INFO  The following profiles are active: dev
+2019-07-25 00:22:03.947 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-25 00:22:04.130 INFO  Finished Spring Data repository scanning in 159ms. Found 1 repository interfaces.
+2019-07-25 00:22:05.459 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca0d508f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-25 00:22:06.408 INFO  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-25 00:22:06.654 INFO  HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-25 00:22:06.656 INFO  HHH000206: hibernate.properties not found
+2019-07-25 00:22:06.867 INFO  HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-25 00:22:08.255 INFO  {dataSource-1} inited
+2019-07-25 00:22:08.294 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-25 00:22:09.955 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 00:22:12.000 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-25 00:22:12.107 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-25 00:22:12.330 INFO  Adding welcome page: class path resource [static/index.html]
+2019-07-25 00:22:12.801 INFO  Started GuangzhouApplicationTests in 12.104 seconds (JVM running for 14.803)
+2019-07-25 00:22:13.040 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-25 00:22:13.043 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 00:22:13.059 INFO  {dataSource-1} closed
+2019-07-25 00:23:39.935 INFO  Starting GuangzhouApplicationTests on zhangzhendeAir.lan with PID 59247 (started by zhangzhen in /Users/zhangzhen/springboot)
+2019-07-25 00:23:39.937 INFO  The following profiles are active: dev
+2019-07-25 00:23:42.262 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-25 00:23:42.448 INFO  Finished Spring Data repository scanning in 149ms. Found 1 repository interfaces.
+2019-07-25 00:23:43.335 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4bdbf03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-25 00:23:44.127 INFO  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-25 00:23:44.273 INFO  HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-25 00:23:44.276 INFO  HHH000206: hibernate.properties not found
+2019-07-25 00:23:44.615 INFO  HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-25 00:23:45.798 INFO  {dataSource-1} inited
+2019-07-25 00:23:45.836 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-25 00:23:47.581 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 00:23:49.343 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-25 00:23:49.445 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-25 00:23:49.638 INFO  Adding welcome page: class path resource [static/index.html]
+2019-07-25 00:23:50.081 INFO  Started GuangzhouApplicationTests in 11.207 seconds (JVM running for 13.311)
+2019-07-25 00:23:51.380 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-25 00:23:51.383 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 00:23:51.402 INFO  {dataSource-1} closed
+[32m2019-07-25 00:33:49.095 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m[32m2019-07-25 00:33:49.129 INFO  Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[0;39m[32m2019-07-25 00:33:49.312 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[32m2019-07-25 00:33:49.315 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[32m2019-07-25 00:33:49.367 INFO  {dataSource-1} closed
+[0;39m2019-07-25 00:34:04.785 INFO  Starting GuangzhouApplicationTests on zhangzhendeAir.lan with PID 59334 (started by zhangzhen in /Users/zhangzhen/springboot)
+2019-07-25 00:34:04.790 INFO  The following profiles are active: dev
+2019-07-25 00:34:07.605 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-25 00:34:07.876 INFO  Finished Spring Data repository scanning in 237ms. Found 1 repository interfaces.
+2019-07-25 00:34:09.690 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2758f82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-25 00:34:11.081 INFO  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-25 00:34:11.357 INFO  HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-25 00:34:11.364 INFO  HHH000206: hibernate.properties not found
+2019-07-25 00:34:12.001 INFO  HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-25 00:34:13.555 INFO  {dataSource-1} inited
+2019-07-25 00:34:13.634 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-25 00:34:18.487 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 00:34:21.832 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-25 00:34:22.034 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-25 00:34:22.354 INFO  Adding welcome page: class path resource [static/index.html]
+2019-07-25 00:34:23.125 INFO  Started GuangzhouApplicationTests in 19.864 seconds (JVM running for 28.523)
+2019-07-25 00:34:25.828 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-25 00:34:25.833 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 00:34:25.858 INFO  {dataSource-1} closed
+[32m2019-07-25 00:34:47.667 INFO  Starting GuangzhouApplication on zhangzhendeAir.lan with PID 59349 (/Users/zhangzhen/springboot/target/classes started by zhangzhen in /Users/zhangzhen/springboot)
+[0;39m[32m2019-07-25 00:34:47.671 INFO  The following profiles are active: dev
+[0;39m[32m2019-07-25 00:34:49.116 INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m[32m2019-07-25 00:34:49.259 INFO  Finished Spring Data repository scanning in 126ms. Found 1 repository interfaces.
+[0;39m[32m2019-07-25 00:34:50.012 INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f31b6d8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m[32m2019-07-25 00:34:50.759 INFO  Tomcat initialized with port(s): 8888 (http) 8888 (http)
+[0;39m[32m2019-07-25 00:34:51.105 INFO  Starting service [Tomcat]
+[0;39m[32m2019-07-25 00:34:51.106 INFO  Starting Servlet engine: [Apache Tomcat/9.0.21]
+[0;39m[32m2019-07-25 00:34:51.294 INFO  Initializing Spring embedded WebApplicationContext
+[0;39m[32m2019-07-25 00:34:51.294 INFO  Root WebApplicationContext: initialization completed in 3481 ms
+[0;39m[32m2019-07-25 00:34:51.840 INFO  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[0;39m[32m2019-07-25 00:34:51.950 INFO  HHH000412: Hibernate Core {5.3.10.Final}
+[0;39m[32m2019-07-25 00:34:51.952 INFO  HHH000206: hibernate.properties not found
+[0;39m[32m2019-07-25 00:34:52.235 INFO  HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[0;39m[32m2019-07-25 00:34:52.982 INFO  {dataSource-1} inited
+[0;39m[32m2019-07-25 00:34:53.002 INFO  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[0;39m[32m2019-07-25 00:34:54.831 INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[32m2019-07-25 00:34:55.789 INFO  Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m[33m2019-07-25 00:34:55.867 WARN  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[32m2019-07-25 00:34:55.993 INFO  Adding welcome page: class path resource [static/index.html]
+[0;39m[31m2019-07-25 00:34:56.234 ERROR Failed to start component [Connector[HTTP/1.1-8888]]
+[0;39morg.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:552)
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.beiwosi.guangzhou.GuangzhouApplication.main(GuangzhouApplication.java:16)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 16 common frames omitted
+[32m2019-07-25 00:34:56.272 INFO  Stopping service [Tomcat]
+[0;39m[32m2019-07-25 00:34:56.309 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m[31m2019-07-25 00:34:56.323 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8888 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8888, or configure this application to listen on another port.
+
+[0;39m[32m2019-07-25 00:34:56.330 INFO  Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m[32m2019-07-25 00:34:56.331 INFO  Closing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[32m2019-07-25 00:34:56.344 INFO  {dataSource-1} closed
+[0;39m
