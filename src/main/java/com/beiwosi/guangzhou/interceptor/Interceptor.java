@@ -14,7 +14,9 @@ public class Interceptor implements HandlerInterceptor{
             throws Exception {
         System.out.println(request.getRequestURL());
         String params = request.getQueryString();
-        if(!params.isEmpty() && params.contains("zhangzhen")) {
+        System.out.println(params);
+        System.out.println(params.equals("null"));
+        if(params != null && params.contains("zhangzhen") && !request.getRequestURL().equals("/index.html")) {
             response.sendRedirect("/login");
         }
         System.out.println(">>>MyInterceptor1>>>>>>>在请求处理之前进行调用（Controller方法调用之前）");
