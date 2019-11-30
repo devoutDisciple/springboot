@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -12,10 +13,16 @@ public class Interceptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
-        System.out.println(request.getRequestURL());
         String params = request.getQueryString();
-        System.out.println(params);
-        System.out.println(params.equals("null"));
+        Cookie[] cookies = request.getCookies();
+        if(cookies != null) {
+            for (Cookie cookie: cookies) {
+                String name = cookie.getName();
+                String value = cookie.getValue();
+                System.out.println(name + " -----");
+                System.out.println(value + " +++++");
+            }
+        }
         if(params != null && params.contains("zhangzhen") && !request.getRequestURL().equals("/index.html")) {
             response.sendRedirect("/login");
         }
